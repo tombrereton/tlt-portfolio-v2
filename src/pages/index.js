@@ -8,14 +8,22 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi I'm Tom</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={sunStyles}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>Tom is a web developer and software architect based in London.</p>
+    <p>My specialties range from building websites for restaurants to complex cloud solutions.</p>
+    <h1 style={{color:'#EB4C49'}}>PROJECTS</h1>
+    <h1 style={{color:'#E03D5B'}}>WORK</h1>
+    <h1 style={{color:'#C54F81'}}>CONTACT</h1>
   </Layout>
 )
+
+var sunStyles = {
+  // display: 'flex',
+  // justifyContent: 'center',
+  width: `250px`,
+}
+
 
 export default IndexPage

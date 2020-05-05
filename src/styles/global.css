@@ -1,0 +1,27 @@
+/* // $background: #131313;
+// $text: #959595;
+// $text-accent: #FFFFFF;
+
+// $colour1: #EB4C49;
+// $colour2: #E03D5B;
+// $colour3: #C54F81; */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root {
+    --background: #131313;
+}
+
+html {
+    background-color: var(--background);
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #959595;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}

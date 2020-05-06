@@ -7,11 +7,18 @@
 // $colour3: #C54F81; */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 
 :root {
     --background: #131313;
+}
+
+* {
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif !important;
+    color: #959595;
 }
 
 html {
@@ -31,6 +38,6 @@ a {
 
 h1 {
     font-family: 'Cabin Sketch', cursive !important;
-    margin-top: 1em;
-    margin-bottom: 0em;
+    margin-top: 1em !important;
+    margin-bottom: 0em !important;
 }

@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import ProjectCard from "../components/projectCard"
 
@@ -11,12 +10,16 @@ import asog from '../content/projects/asog/card.png';
 import soundSort from '../content/projects/soundSort/card.png';
 import gitSetup from '../content/blog/myGitSetup/card.png';
 import cicdSetup from '../content/blog/simpleCICD/card.png';
+import retroSun from '../images/retro-sun-v1.svg';
+import retroSunPng from '../images/retro-sun-v1.png';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div style={sunStyles}>
-      <Image />
+      <object data={retroSun} type="image/svg+xml">
+        <img src={retroSunPng} />
+      </object>
     </div>
     <p>Hi, I'm <span style={{ color: '#ffffff' }}>Tom</span>. I'm a web developer and software architect based in <span style={{ color: '#ffffff' }}>London</span>.</p>
     <p>My specialties range from building websites for restaurants to complex cloud solutions.</p>

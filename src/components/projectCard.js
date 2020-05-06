@@ -16,7 +16,7 @@ var imgStyles = {
     backgroundColor: 'black',
     margin: 'auto',
     borderRadius: '4px',
-    filter: 'drop-shadow(2px 3px 3px #535353)',
+    filter: 'drop-shadow(3px 3px 4px #232323)',
 }
 
 var squareContainer = {
@@ -27,10 +27,10 @@ var squareContainer = {
 }
 
 var projectTitleStyles = {
-    color: '#fff',
+    color: '#F3F3F3',
     position: 'absolute',
     left: 0,
     textAlign: 'center',
     width: '100%',
-    top: '60%'
+    top: '40%'
 }

@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
 }
 
 const contentStyles = {
+  paddingTop: '80px',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',

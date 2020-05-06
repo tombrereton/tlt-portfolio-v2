@@ -25,14 +25,18 @@ const Layout = ({ children }) => {
 
   return (
     <div>
+      <div style={paddingStyles}></div>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main style={contentStyles}>{children}</main>
     </div>
   )
 }
 
+const paddingStyles ={
+  height: '80px'
+}
+
 const contentStyles = {
-  paddingTop: '80px',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',

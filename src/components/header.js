@@ -12,9 +12,10 @@ const Header = ({ siteTitle }) => (
     </div>
     <div style={{ width: `40px` }}>
       <Menu disableAutoFocus right styles={menuStyles}>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
+        <a id="home" className="menu-item" href="/">HOME</a>
+        <a id="projects" className="menu-item" href="/projects">PROJECTS</a>
+        <a id="blog" className="menu-item" href="/blog">BLOG</a>
+        <a id="contact" className="menu-item" href="/contact">CONTACT</a>
       </Menu>
     </div>
   </header>
@@ -48,7 +49,24 @@ var menuStyles = {
     height: '2px'
   },
   bmCross: {
-    background: '#ffffff'
+    background: '#959595'
+  },
+  bmMenuWrap: {
+    position: 'fixed',
+    height: '100%',
+    top: 0
+  },
+  bmMenu: {
+    background: '#131313',
+    padding: '2.5em 1.5em 0',
+    fontSize: '1.15em'
+  },
+  bmItemList: {
+    color: '#b8b7ad',
+    padding: '1em'
+  },
+  bmItem: {
+    padding: '1em'
   },
 }
 

@@ -25,6 +25,7 @@ const IndexPage = () => (
       <ProjectCard title="GEM ISLAND" imgSrc={matchThree} />
       <ProjectCard title="AS SEEN ON GRAM" imgSrc={asog} />
       <ProjectCard title="SOUNDSORT" imgSrc={soundSort} />
+      <ProjectCard title="GEM ISLAND" imgSrc={matchThree} />
     </div>
     <h1 style={{ color: '#E03D5B' }}>BLOG</h1>
     <div style={projectShelfStyles}>
@@ -47,7 +48,7 @@ var sunStyles = {
 var projectShelfStyles = {
   display: "flex",
   alignItems: "center",
-  justifyContent: "space-between",
+  justifyContent: "flex-start",
   overflowX: "auto",
   padding: "1em 0 1em 0",
   height: "auto",

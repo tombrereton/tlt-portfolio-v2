@@ -1,11 +1,10 @@
 import React from "react"
-import matchThree from '../content/projects/matchThree/match-three-card.png';
 
 export default function projectCard(props) {
     return (
         <div style={squareContainer}>
-            <img style={imgStyles} src={matchThree} />
-            <h5 style={projectTitleStyles}>Gem Island</h5>
+            <img style={imgStyles} src={props.imgSrc} />
+            <h5 style={projectTitleStyles}>{props.title}</h5>
         </div>
     )
 }
@@ -28,9 +27,10 @@ var squareContainer = {
 }
 
 var projectTitleStyles = {
-    color: 'white',
+    color: '#fff',
     position: 'absolute',
-    paddingLeft: '1em',
-    paddingRight: '1em',
-    top: '30%'
+    left: 0,
+    textAlign: 'center',
+    width: '100%',
+    top: '60%'
 }

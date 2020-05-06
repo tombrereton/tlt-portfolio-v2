@@ -6,6 +6,10 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import ProjectCard from "../components/projectCard"
 
+import matchThree from '../content/projects/matchThree/card.png';
+import asog from '../content/projects/asog/card.png';
+import soundSort from '../content/projects/soundSort/card.png';
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -16,12 +20,9 @@ const IndexPage = () => (
     <p>My specialties range from building websites for restaurants to complex cloud solutions.</p>
     <h1 style={{ color: '#EB4C49' }}>PROJECTS</h1>
     <div style={projectShelfStyles}>
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
+      <ProjectCard title="Gem Island" imgSrc={matchThree}/>
+      <ProjectCard title="Asog" imgSrc={asog}/>
+      <ProjectCard title="SoundSort" imgSrc={soundSort}/>
     </div>
     <h1 style={{ color: '#E03D5B' }}>WORK</h1>
     <p>work placeholder</p>
